@@ -1,0 +1,52 @@
+@font-face {
+    font-family: nudge;
+    src: url(./VCNudgeRegularTrial.woff);
+}
+
+.navbar {
+    width: 100%;
+    background-color: #174DAD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 98px;
+
+}
+
+.logo {
+        width: 214px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 40px;
+}
+
+li {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: nudge;
+}
+
+li a{
+        color: white;
+}
+
+
+.consult{
+    background-color: #E8FE61;
+    border: none;
+    outline: none;
+    padding: 14px 22px;
+    border-radius: 40px;
+    font-weight: 700;
+    display: flex;
+    gap: 8px;
+}
